@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(0, 0, 0);  
+  }
+  
+  a, ul {
+    color: rgb(0, 0, 0);
+    list-style: none;
+    text-decoration: none;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  header > ul {
+    display: flex;
+    padding: 10px;  
+  }
+  
+  li{
+    margin-left: 20px;  
+  }
+
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 70vh 20vh;
+    
+  }
+  
+  header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);  
+    grid-column: 1/4;
+    padding: 10px;  
+  }
+
+  .jpeg{
+    max-width: 25%;
+    height: auto;
+    margin-right: 5px;
+  }
+
+  aside{
+    background-color: #000000;
+    justify-content: center;
+    align-content: center;
+    grid-column: 1/4;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  footer{
+    background-color: rgb(255, 255, 255); 
+    grid-column: 1/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+footer > ul{
+  display: flex;
+  padding: 10px;  
+}
+
+.rodape{
+    margin-inline: 100px;  
+}
+
+.foto{
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #000000;
+}

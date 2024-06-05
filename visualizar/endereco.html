@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title></title>
+        <script src="../roteiro/endereco.js"></script>    
+        <link rel="stylesheet" type="text/css" href="../css/index.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="../css/endereco.css" media="screen" />        
+    </head>
+    <body>
+        <header>
+            <a href="../index.html"><img class="jpeg" src="../img/logo.jpeg"/></a>
+            <ul>
+                <li><a href="./cadastro.html">Cadastro</li></a> 
+                <li><a href="./login.html">Login</li></a>
+            </ul>
+        </header>
+        <section class="form">
+            <h1 style="text-align: center;">Cadastre seu endereço</h1>
+            <div>
+                <form>
+                    <label for="moradia">Moradia</label>
+                <input type="text" id="moradia" name="moradia" placeholder="(ex: MInha casa, ex: Meu apartmento)">
+            
+                <label for="cep">CEP</label>
+                <input type="text" id="cep" name="cep" placeholder="Somente os numeros...">
+
+                <label for="rua">Rua</label>
+                <input type="text" id="rua" name="rua" placeholder="Localidade de sua moradia...">
+
+                <label for="numero">NUMERO</label>
+                <input type="text" id="numero" name="numero" placeholder="Numero da Casa/Apartamendo...">
+
+                
+                <label for="complemento">COMPLEMENTO</label>
+                <input type="text" id="complemento" name="complemento" placeholder="Complemento...">
+
+                <input type="button" value="Cadastrar" onclick="endereco()">
+                    
+            </div>
+            
+        </section>
+        
+    </body>
+</html>

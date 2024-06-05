@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(100, 98, 98); 
+    color: rgb(255, 255, 255);
+}
+
+
+.cor {
+    width: 50%;
+    background: linear-gradient(144deg, #ff0000,#8a2222,#3a2525);
+    padding: 5px 3px;
+    margin: 8px auto;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 16px !important;
+    
+    text-align: center;
+    font-size: 25px;
+}

@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(0, 0, 0); 
+    color: rgb(255, 255, 255);
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr ;
+    margin: 340 auto 20;
+    max-width: 500px;        
+    grid-gap: 20px;  
+    padding: 90px;
+    top: 50%;
+    background:linear-gradient(14deg, #000000,#461414);
+    box-sizing: border-box;
+    box-shadow: 1px 1px 25px rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    padding: 20px;
+    transform: translate(0, -50%);
+    text-align: center;
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+  
+input[type=button] {
+    width: 100%;
+    background: linear-gradient(144deg, #ff0000,#8a2222,#3a2525);
+    color: rgb(255, 254, 254);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 16px !important;
+}
+
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);  
+    grid-column: 1/4;
+    padding: 10px;  
+}
+
